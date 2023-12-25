@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+*{
+    color: var(--text-color);
+}
+:root{
+    --text-color:#fff;
+    --bg-color:#161618;
+    --btn-color:#fc7544;
+    --color-btn:#000;
+    
+}
+
+.wrapper{
+   
+    background-color: var(--bg-color) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 30px;
+}
+.header_nav a{
+    border: var(--btn-color) 1px solid;
+    
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    transition: .9s ease;
+    
+}
+.header_nav a:hover{
+    color: var(--color-btn);
+    transition: .9s ease;
+    background: var(--btn-color);
+}
+.btn_number{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.number img{
+  
+
+    height: 25px;
+    width: 25px;
+}
+.number {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    gap: 10px;
+    transition: .9s ease;
+    filter: blur(2px);
+}
+.number:hover{
+    
+    transition: .9s ease;
+    background-color: var(--btn-color);
+    border-radius: 4px;
+    transition: .9s ease;
+    padding:5px 20px;
+    border: var(--btn-color) 1px solid;
+    filter: blur(0px);
+    
+}
+.number a{
+    transition: .9s ease;
+
+}
+.number a:hover{
+    transition: .9s ease;
+
+    color: var(--color-btn);
+}
+.btn{
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid var(--btn-color);
+    transition: .9s ease;
+
+}
+.btn:hover{
+   
+    transition: .9s ease;
+    background: var(--btn-color);
+}
+.button{
+    transition: .9s ease;
+}
+.button:hover{
+    transition: .9s ease;
+    color: var(--color-btn);
+}
+.page-1{
+    display: flex;
+   
+    justify-content: space-between;
+    padding: 50px 150px;
+    height: 100vh;
+}
+.title h1{
+    font-size: 30px;
+    width: 450px;
+    padding: 10px 0px;
+}
+.title p{
+    opacity: .5;
+    padding: 10px 0px;
+
+    width: 400px;
+}
+.title_btn{
+    padding-top: 20px;
+}
+.img_engine img{
+   
+    width: 265px;
+    height: 250px;
+    transition: 0.5s ease;
+}
+.img_engine img:hover{
+    transition: 0.5s ease;
+
+    width: 300px;
+    height: 300px;
+}
